@@ -1,0 +1,28 @@
+a = [1, 2, 3]
+b = [1, 2, 3]
+#a == b
+
+if 1 in a:
+    print("Jest")
+    print("ok")
+else:
+    print("nie znalazlam")
+
+
+
+
+
+#operatory porownania
+# ==
+# >, >=
+#<, ,<=
+# # <>
+# !=
+
+# operatory logiczne:
+# and, or, not (&&
+
+x
+
+
+

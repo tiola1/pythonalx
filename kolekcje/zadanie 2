@@ -1,0 +1,13 @@
+# zapytaj uzytkownika o tekst
+# zapytaj użytkownika o szerokość
+# wyświetl tekst, który będzie miał same duże litery
+# tekst powinien być wycentrowany zgodnie z wartością szerokości
+# podaj napis:Ala
+#podaj szerkość:10
+# !  ala
+
+tresc = input("Podaj tresc:")
+szerokosć = int(input("podaj szerokość:"))
+
+print("!"+ tresc.center(szerokosć)+ "!")
+print(f"!{tresc.center(szerokosć)}!")

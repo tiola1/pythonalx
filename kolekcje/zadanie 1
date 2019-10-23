@@ -1,0 +1,16 @@
+# zapytaj uzytkownika o imię
+# wypisz powitanie
+#np
+#Jak masz na imię? Ola
+# Hello Ola
+
+x= "Jak masz na imię?"
+y = "Ola"
+
+print(f"{x} {y}.")
+
+
+imię = input("Podaj imię: ")
+print("Hello", imię+ "!")
+print("Hello " + imię + "!")
+print
