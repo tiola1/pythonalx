@@ -3,3 +3,5 @@ venv
 wazne_hasla
 *.pyc
 _pycashe_
+venv38
+.pytest_cashe
