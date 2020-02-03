@@ -1,0 +1,15 @@
+{% extends "base.html." %}
+{% block.title %}Lista{% endblock title%}
+
+
+{% block content %}
+
+<div>Lista pytań </div>
+<ul>
+    {%for q in questions%}
+    <li><a href="{% url " polls :list"</li>
+    <li> q.id %">{{ q.question_text }} </a></li>
+    {% endfor %}
+</ul>
+
+{% endblock}

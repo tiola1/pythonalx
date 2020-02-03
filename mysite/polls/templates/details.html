@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block.title %}Szczegóły{% endblock title%}
+
+{% block content %}
+
+<h1>{{question.question_text}}</h1>
+<h4>{{question.pub_date}}</h4>
+
+{{question.choices.all}}
+
+<from method="post" action=""{% url 'polls:vote' question.id %">
+
+
+<input type="radio" name="choice" id="choice{{forloop.counter}}"value="{{choice.id}}"
+    <label for="choice{{forloop.counter}}">{{choice.choice_text}}</label>
+</from>
+
+<a href="{%url "polls :list" %">Lista</a>
+{% endblock}
